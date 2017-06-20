@@ -1,0 +1,273 @@
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  padding-bottom: 5%;
+}
+/* MENU */
+#menu {
+  margin: 0;
+  background: #000000;
+  border-bottom: 1px dashed #fff;
+}
+#menu li {
+  padding-top: 3%;
+  font-weight: 700;
+  font-size: 16px;
+}
+#menu .caret {
+  color: #f8a631;
+}
+.logo {
+  padding-top: 2%;
+  left: 2%;
+}
+#leftmenu {
+  left: 10%;
+}
+/* ... */
+/* SLIDER */
+.item h2 {
+  font-size: 60px;
+  font-weight: 700;
+}
+.item .carousel-caption {
+  top: 40%;
+}
+.item .carousel-caption span {
+  font-size: 20px;
+}
+.item .carousel-caption p {
+  font-size: 17px;
+}
+.item .carousel-caption .btn {
+  margin: 3%;
+}
+/* ... */
+/* About */
+#about {
+  margin: 8%;
+}
+#about h3::after {
+  background: #000000;
+  content: "";
+  display: block;
+  height: 3px;
+  margin: 20px 0 20px 0;
+  width: 30px;
+}
+#btn {
+  margin: 8% 0 5% 0;
+  border: 2px solid #000000;
+}
+/* ... */
+/* FEATURES */
+.features {
+  background: url('images/features.jpg') no-repeat center;
+  color: #F8F8FF;
+  padding: 10%;
+  color: #edeeec;
+}
+.features h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+/* ... */
+/* SPECIAL MENUS */
+#wrapper {
+  margin: 7% 0% 7% 0%;
+}
+#wrapper .info {
+  padding: 4% 0 4% 0%;
+}
+#wrapper .info h3 {
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+#wrapper .info p {
+  margin-bottom: 7%;
+}
+#wrapper .info a {
+  color: #CFCFCF;
+}
+#wrapper .info a:hover {
+  text-decoration: none;
+  color: #4F4F4F;
+}
+#wrapper .info2 {
+  margin: 5% 0 4% 0;
+}
+#wrapper .info2 p {
+  margin-bottom: 7%;
+}
+#wrapper .info2 a {
+  color: #CFCFCF;
+}
+#wrapper .info2 a:hover {
+  text-decoration: none;
+  color: #4F4F4F;
+}
+/* ... */
+/* RESERVATION */
+#reservation {
+  background: url('images/bg.jpg') no-repeat center;
+  color: #edeeec;
+  padding: 15%;
+}
+#reservation p {
+  font-family: italic;
+  font-size: 24px;
+  font-weight: 600;
+}
+#reservation #btn {
+  border: 3px solid #000000;
+}
+/* ... */
+/* BLOG */
+#blog {
+  padding-bottom: 5%;
+}
+#blog h2 {
+  font-weight: 600;
+  margin: 5%;
+  font-size: 30px;
+}
+#blog .new img {
+  margin: 5%;
+}
+#blog .new p {
+  margin-bottom: 10%;
+}
+#blog .new a {
+  color: orange;
+}
+#blog .new a:hover {
+  text-decoration: none;
+  color: red;
+}
+/* ... */
+/* BOTTOM */
+#bot {
+  padding: 5%;
+  background: #333;
+  color: #fff;
+}
+#bot h3::after {
+  background: #f88d31;
+  content: "";
+  display: block;
+  height: 3px;
+  margin: 5% 0 7% 0;
+  width: 30px;
+}
+#bot .popularrecipes ul li.sec {
+  list-style: none;
+  overflow: hidden;
+  margin: 5% 0;
+  padding-bottom: 5%;
+  border-bottom: 1px solid #555;
+}
+#bot .popularrecipes ul li.sec img {
+  float: left;
+  margin-right: 5%;
+}
+#bot .popularrecipes ul li.sec a {
+  font-size: 13px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#bot .popularrecipes cite {
+  color: #f8a631;
+}
+#bot .categories ul li,
+#bot .post ul li {
+  list-style: none;
+  margin: 7% 0;
+  border-bottom: 1px solid #555;
+}
+#bot .categories ul li a,
+#bot .post ul li a {
+  font-size: 13px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#bot .categories cite,
+#bot .post cite {
+  font-size: 10px;
+}
+#bot .contact {
+  margin: 5%;
+}
+#bot .contact .email {
+  height: 40px;
+  width: 200px;
+}
+#bot .contact .but {
+  height: 40px;
+  width: 40px;
+  background: #f88d31;
+  border: 1px solid #f88d31;
+}
+#bot .icon li {
+  float: left;
+  padding: 4%;
+}
+#bot .icon a {
+  color: #fff;
+}
+/* ... */
+/* FOOTER */
+#footer {
+  background: #232323;
+  color: #fff;
+  font-size: 11px;
+}
+#footer p {
+  padding: 5%;
+}
+#footer .menubot {
+  padding: 2%;
+}
+#footer .menubot li {
+  float: left;
+  padding: 1%;
+}
+#footer .menubot a {
+  text-decoration: none;
+  color: #fff;
+}
+/* ... */
+@media screen and (max-width: 767px) and (min-width: 360px) {
+  #menu {
+    text-align: center;
+  }
+  #menu .logo img {
+    width: 50%;
+  }
+  #slider {
+    width: 100%;
+    text-align: center;
+  }
+}

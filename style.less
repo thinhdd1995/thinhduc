@@ -1,0 +1,316 @@
+*,h1,h2,h3,h4,h5,h6,p,a,ul,ol,li{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+.container-fluid{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	padding-bottom: 5%;
+}
+
+/* MENU */
+#menu{
+	margin: 0;
+	background: #000000;
+	border-bottom: 1px dashed #fff;
+	li{
+		padding-top: 3%;
+		font-weight: 700;
+		font-size: 16px;
+	}
+	.caret{
+		color: #f8a631;
+	}
+}
+
+.logo{
+	padding-top: 2%;
+	left: 2%;
+}
+#leftmenu{
+	left: 10%;
+}
+
+
+
+/* ... */
+
+/* SLIDER */
+.item{
+	h2{
+		font-size: 60px;
+		font-weight: 700;
+	}
+	.carousel-caption{
+		top: 40%;
+
+		span{
+			font-size: 20px;
+		}
+		p{
+			font-size: 17px;
+		}
+		.btn{
+			margin : 3%;
+
+		}
+	}
+
+}
+/* ... */
+
+/* About */
+
+#about{
+	margin: 8%;
+h3::after{
+	background: #000000;
+    content: "";
+    display: block;
+    height: 3px;
+    margin: 20px 0 20px 0;
+    width: 30px;
+}
+}
+#btn{
+	margin:8% 0 5% 0;
+	border: 2px solid #000000;
+}
+
+/* ... */
+
+/* FEATURES */
+.features{
+	background: url('images/features.jpg') no-repeat  center;
+	color: #F8F8FF;
+	padding: 10%;
+	color: #edeeec;
+h3{
+	font-size: 30px;
+	font-weight: 600;
+}
+
+}
+
+/* ... */
+
+/* SPECIAL MENUS */
+#wrapper{
+	margin: 7% 0% 7% 0%;
+
+	.info{
+ 		padding : 4% 0 4% 0%;
+
+		h3{
+			font-weight: bold;
+			margin-bottom: 3%;
+		}
+		p{
+			margin-bottom: 7%;
+		}
+		a{
+			color: #CFCFCF;
+
+		&:hover{
+			text-decoration: none;
+			color: #4F4F4F;
+		}
+		}
+	}
+	.info2{
+		margin : 5% 0 4% 0;
+		p{
+			margin-bottom: 7%;
+		}
+		a{
+			color: #CFCFCF;
+
+		&:hover{
+			text-decoration: none;
+			color: #4F4F4F;
+		}
+		}
+	}
+
+}
+
+/* ... */
+
+/* RESERVATION */
+#reservation{
+	background: url('images/bg.jpg') no-repeat  center;
+	color: #edeeec;
+	padding: 15%;
+	p{
+		font-family: italic;
+		font-size: 24px;
+		font-weight: 600;
+		
+	}
+	#btn{
+	border: 3px solid #000000;
+	}	
+}
+
+/* ... */
+
+/* BLOG */
+#blog{
+	padding-bottom: 5%;
+
+	h2{
+		font-weight: 600;
+		margin: 5%;
+		font-size: 30px;
+	}
+	.new{
+		img{
+			margin: 5%;
+		}
+
+		p{
+			margin-bottom: 10%;
+		}
+		a{
+			color: orange;
+
+			&:hover{
+				text-decoration: none;
+				color: red;
+			}
+		}
+	}
+}
+
+/* ... */
+
+/* BOTTOM */
+#bot{
+	padding : 5%;
+	background:#333;
+	color: #fff;
+	h3::after{
+		background: #f88d31;
+    	content: "";
+    	display: block;
+    	height: 3px;
+    	margin: 5% 0 7% 0;
+    	width: 30px;
+	}
+	.popularrecipes{
+
+		ul li.sec{
+			
+			list-style:none;
+			overflow:hidden;
+			margin:5% 0;
+			padding-bottom:5%;
+			border-bottom:1px solid #555;
+
+			img{
+			float:left;
+			margin-right:5%;
+			}	
+
+			a{
+				font-size:13px;
+				color:#FFFFFF;
+				text-decoration:none;
+			}	
+
+		}
+		cite{
+			color: #f8a631;
+
+		}
+	}
+	.categories,.post{
+		ul li{
+			
+			list-style:none;
+			margin:7% 0;
+			border-bottom:1px solid #555;
+
+			a{
+				font-size:13px;
+				color:#FFFFFF;
+				text-decoration:none;
+			}	
+
+		}
+		cite{
+			font-size: 10px;
+		}
+	}
+	.contact{
+		margin: 5%;
+		.email{
+			height: 40px;
+			width: 200px;
+		}
+		.but{
+			height: 40px;
+			width: 40px;
+			background: #f88d31;
+			border: 1px solid #f88d31;
+
+		}
+
+	}
+	.icon{
+			li{
+				float: left;
+				padding: 4%;
+			}
+			a{
+				color: #fff;
+			}
+		}	
+}
+
+/* ... */
+
+/* FOOTER */
+#footer{
+	background: #232323; 
+	color: #fff;
+	font-size: 11px;
+	p{
+		padding: 5%;
+	}
+	.menubot{
+		padding: 2%;
+		li{
+			float: left;
+			padding: 1%;
+		}
+		a{
+			text-decoration: none;
+			color: #fff;
+		}
+	}
+}
+/* ... */
+
+
+@media screen and (max-width:767px) and (min-width: 360px){
+	#menu{
+		text-align: center;
+		.logo img{
+			width: 50%;
+		}
+	}
+	#slider{
+		  width: 100%;
+		  text-align: center;
+	}
+
+}
